@@ -1,0 +1,45 @@
+Body {
+    background-color: rgb(167, 156, 156);
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    display: flex;
+    padding: 0;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: rgb(188, 202, 127);
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5%;
+}
+
+.textarea {
+    width: 250px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.counter_container {
+    display: flex;
+    justify-content: space-between;
+    width: 250px; 
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.total_count {
+    color: red;
+}
+
+.left_counter {
+    color: blue;
+}
